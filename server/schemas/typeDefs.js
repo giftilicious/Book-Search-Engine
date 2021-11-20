@@ -40,7 +40,7 @@ type User {
         bookId: String,
         image: String,
         link: String,
-        title: String): Book
+        title: String): User
     removeBook(bookId: String): User
   }
 `;

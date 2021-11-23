@@ -143,3 +143,63 @@ const SearchBooks = () => {
 };
 
 export default SearchBooks;
+
+
+// import { saveBook, searchGoogleBooks } from '../utils/API';
+
+//////////////////
+// const [addProfile, { error }] = useMutation(ADD_PROFILE, {
+//   // The update method allows us to access and update the local cache
+//   update(cache, { data: { addProfile } }) {
+//     try {
+//       // First we retrieve existing profile data that is stored in the cache under the `QUERY_PROFILES` query
+//       // Could potentially not exist yet, so wrap in a try/catch
+//       const { profiles } = cache.readQuery({ query: QUERY_PROFILES });
+
+//       // Then we update the cache by combining existing profile data with the newly created data returned from the mutation
+//       cache.writeQuery({
+//         query: QUERY_PROFILES,
+//         // If we want new data to show up before or after existing data, adjust the order of this array
+//         data: { profiles: [...profiles, addProfile] },
+//       });
+//     } catch (e) {
+//       console.error(e);
+//     }
+//   },
+// });
+
+//   const SAVE_BOOK = gql`
+//   # Increments a back-end counter and gets its resulting value
+//   mutation IncrementCounter {
+//     currentValue
+//   }
+// `;
+
+
+
+  // // create function to handle saving a book to our database
+  // const handleSaveBook = useMutation(SAVE_BOOK), { 
+  //   // find the book in `searchedBooks` state by the matching id
+  //   const { bookId } = useParams(),
+  //   // get token
+  //   const token = Auth.loggedIn() ? Auth.getToken() : null;
+
+  //   if (!token) {
+  //     return false;
+  //   }
+
+  //   try {
+  //     const response = await saveBook(bookToSave, token);
+
+  //     if (!response.ok) {
+  //       throw new Error('something went wrong!');
+  //     }
+
+  //     // if book successfully saves to user's account, save book id to state
+  //     setSavedBookIds([...savedBookIds, bookToSave.bookId]);
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
+
+  

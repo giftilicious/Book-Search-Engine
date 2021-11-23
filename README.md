@@ -15,4 +15,6 @@ SO THAT I can keep a list of books to purchase
 * Node.js / Express.js
 * React
 
-To view the deployed application, please click on the following link: 
+To view the deployed application, please click on the following link: https://book-search-gg.herokuapp.com/
+
+<img width="2044" alt="Screen Shot 2021-11-22 at 11 44 43 PM" src="https://user-images.githubusercontent.com/90150892/142972422-3329a19d-42d7-412e-9c47-3f219f333a83.png">
